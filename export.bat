@@ -1,0 +1,3 @@
+
+@SET PATH=%PATH%;.
+%1
