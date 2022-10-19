@@ -1,3 +1,2 @@
-
-@SET PATH=%PATH%;.
+@SET PATH=%PATH%;./SDL/bin/
 %1
