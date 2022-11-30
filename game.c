@@ -46,7 +46,7 @@ static short _minimax(Board board, enum Square turn, short depth) {
       return 0;
    } else {
       if (turn == O) {
-         short score = 10;
+         short score = -10;
          for (short i = 0; i < 9; i++) {
             if (board[i] == EMPTY) {
                board[i] = O;
